@@ -1,0 +1,51 @@
+.reset-btn{
+    background:#dc3545;
+}
+
+.reset-btn:hover{
+    background:#b02a37;
+}
+
+.dark-btn{
+    background:#343a40;
+    margin-bottom:20px;
+}
+
+.dark-btn:hover{
+    background:#212529;
+}
+
+body.dark{
+    background:linear-gradient(135deg,#232526,#414345);
+}
+
+body.dark .container{
+    background:#1e1e1e;
+    color:white;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark label,
+body.dark p{
+    color:white;
+}
+
+body.dark .subtitle{
+    color:#ddd;
+}
+
+body.dark .result{
+    background:#333;
+}
+
+body.dark input{
+    background:#444;
+    color:white;
+    border:1px solid #666;
+}
+
+body.dark input::placeholder{
+    color:#bbb;
+}
